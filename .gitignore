@@ -38,6 +38,7 @@
 # Build directories
 cmake-build-*
 build
+TrialMode_*.zip
 
 # Mod generated files
 packs/*/score.dat
