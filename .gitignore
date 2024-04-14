@@ -40,5 +40,5 @@ cmake-build-*
 build
 
 # Mod generated files
-src/packs/*/score.dat
-src/packs/*/*.backup
+packs/*/score.dat
+packs/*/*.backup
