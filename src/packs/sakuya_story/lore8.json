@@ -1,0 +1,64 @@
+{
+    "dummy": {
+        "character": "suika",
+        "deck": [],
+        "palette": 0,
+        "pos": {
+            "x": 750.0,
+            "y": 0.0
+        }
+    },
+    "expected": "!d6 5aaa 2b hj9 j5b/j2b j66/j6d:30 j5a:20 5aaaa",
+    "intro": "lore8intro.lua",
+    "music": "{{pack_path}}/suika.ogg",
+    "music_loop_end": 195.655,
+    "music_loop_start": 3.7920000000000007,
+    "outro": "lore8outro.lua",
+    "player": {
+        "character": "sakuya",
+        "deck": [],
+        "palette": 0,
+        "pos": 700.0
+    },
+    "score": [
+        {
+            "min_damage": 2300,
+            "min_hits": 26,
+            "min_limit": 100
+        },
+        {
+            "min_damage": 2403,
+            "min_hits": 29,
+            "min_limit": 103
+        },
+        {
+            "min_damage": 2410,
+            "min_hits": 32,
+            "min_limit": 110
+        },
+        {
+            "max_attempts": 25
+        }
+    ],
+    "skills": [
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "stage": 5,
+    "type": "combo",
+    "uniform_card_cost": 1
+}

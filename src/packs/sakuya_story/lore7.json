@@ -1,0 +1,59 @@
+{
+    "counter_hit": true,
+    "dummy": {
+        "character": "youmu",
+        "deck": [],
+        "palette": 0,
+        "pos": {
+            "x": 500.0,
+            "y": 0.0
+        }
+    },
+    "expected": "66c hj9/hj8/hj7/9/8/7/d6:40 j2a:11 66c:55",
+    "intro": "lore5intro.lua",
+    "music": "data/bgm/st14.ogg",
+    "outro": "lore5outro.lua",
+    "player": {
+        "character": "sakuya",
+        "deck": [],
+        "palette": 0,
+        "pos": 100.0
+    },
+    "score": [
+        {
+            "min_damage": 2187,
+            "min_hits": 3,
+            "min_limit": 100
+        },
+        {
+            "max_attempts": 25
+        },
+        {
+            "max_attempts": 10
+        },
+        {
+            "max_attempts": 5
+        }
+    ],
+    "skills": [
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "stage": 18,
+    "type": "combo",
+    "uniform_card_cost": 1
+}

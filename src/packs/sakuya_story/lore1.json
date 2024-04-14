@@ -1,0 +1,55 @@
+{
+    "music": 41,
+    "stage": 16,
+    "player": {
+        "character": "sakuya",
+        "palette": 0,
+        "deck": [],
+        "pos": 700
+    },
+    "dummy": {
+        "character": "marisa",
+        "palette": 0,
+        "deck": [],
+        "pos": {
+            "x": 800,
+            "y": 0
+        }
+    },
+    "intro" : "lore1intro.lua",
+    "outro" : "lore1outro.lua",
+    "type" : "combo",
+    "expected": "f5a/2a 3a 66b:68",
+    "skills": [
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0]
+    ],
+    "weather": 21,
+    "disable_limit": false,
+    "uniform_card_cost": 1,
+    "hand": [],
+    "play_combo_after_intro": true,
+    "hint": [
+
+    ],
+    "score": [
+    {
+        "min_hits": 5,
+        "min_damage": 1469,
+        "min_limit": 60
+    },
+    {   
+        "min_hits": 6,
+        "min_damage" : 1620,
+        "min_limit": 70
+    },
+    {
+        "max_attempts": 10
+    },
+    {
+        "max_attempts": 5
+    }
+    ]
+}

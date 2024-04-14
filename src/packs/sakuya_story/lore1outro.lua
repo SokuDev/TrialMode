@@ -3,15 +3,12 @@
 --
 
 local dialogs = {
-	"r H",
-	"r E",
-	"r S",
-	"r C",
-	"r A",
-	"r D",
-	"r W",
-	"r c",
-	"r h"
+	"r DStop it, I'm already half dead!",
+	"lHDWell that's why they call it a half life.",
+	"lcDBut why were you already in such bad shape?",
+	"rcSDon't you know how many youkai are here?",
+	"rcCThis place is in quite a mess.",
+	"lECAnd I'll be the one that has to clean it up..."
 	--Battle here
 }
 
@@ -29,7 +26,7 @@ flashRect.size = Vector2u.new(640, 480)
 function update()
 	local color = flashRect.fillColor
 
-	--battleMgr.leftCharacterManager:updateAnimation()
+	battleMgr.leftCharacterManager:updateAnimation()
 	if color.a and ctr == 0 and side then
 		dialog:update()
 		if pressed then
@@ -61,6 +58,9 @@ function update()
 			battleMgr.rightCharacterManager.animationSubFrame = 0
 			battleMgr.rightCharacterManager.action = enums.actions.ACTION_KNOCKED_DOWN_STATIC
 			battleMgr.rightCharacterManager:initAnimation()
+
+			battleMgr.leftChr.direction = enums.directions.RIGHT;
+			battleMgr.rightChr.direction = enums.directions.LEFT;
 		end
 	elseif flashRect.fillColor.a ~= 0 then
 		color.a = color.a - 0x11;

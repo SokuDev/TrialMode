@@ -1,0 +1,88 @@
+{
+    "dummy": {
+        "character": "patchouli",
+        "deck": [],
+        "palette": 0,
+        "pos": {
+            "x": 800.0,
+            "y": 0.0
+        }
+    },
+    "expected": "66b sc205:50",
+    "hand": [
+        205,
+        205,
+        205,
+        205
+    ],
+    "intro": "lore3intro.lua",
+    "music": "data/bgm/st15.ogg",
+    "outro": "lore3outro.lua",
+    "player": {
+        "character": "sakuya",
+        "deck": [
+            205,
+            5,
+            5,
+            5,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4
+        ],
+        "palette": 0,
+        "pos": 400.0
+    },
+    "score": [
+        {
+            "min_damage": 3827,
+            "min_hits": 25,
+            "min_limit": 56
+        },
+        {
+            "min_damage": 3878,
+            "min_limit": 66
+        },
+        {
+            "max_attempts": 20,
+            "min_damage": 3923,
+            "min_hits": 26,
+            "min_limit": 76
+        },
+        {
+            "max_attempts": 5
+        }
+    ],
+    "skills": [
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "stage": 14,
+    "type": "combo"
+}

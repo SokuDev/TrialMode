@@ -9,7 +9,9 @@ local dialogs = {
 	"rCDI was just investigating the rumor that someone<br>had infiltrated the Scarlet Mansion.",
 	"lcDWell it is nothing new...",
 	"rcDI meant neither Marisa nor me.",
-	"lSDNow THAT is surprising!",
+	"lcDMmmmhh... When did she come?",
+	"rcDI don't know, but it should have been a while now.",
+	"lSDNothing special happened though, how strange.",
 	"lcDSakuya must know something..."
 	--Battle here
 }
@@ -60,6 +62,8 @@ function update()
 			battleMgr.rightCharacterManager.animationSubFrame = 0
 			battleMgr.rightCharacterManager.action = enums.actions.ACTION_KNOCKED_DOWN_STATIC
 			battleMgr.rightCharacterManager:initAnimation()
+			battleMgr.leftCharacterManager.direction = enums.directions.RIGHT
+			battleMgr.rightCharacterManager.direction = enums.directions.LEFT
 		end
 	elseif flashRect.fillColor.a ~= 0 then
 		color.a = color.a - 0x11;

@@ -19,6 +19,7 @@
 #ifndef _DEBUG
 #define puts(...)
 #define printf(...)
+#define fprintf(...)
 #endif
 
 #define FILTER_TEXT_SIZE 120
@@ -1785,7 +1786,7 @@ void loadFont()
 	desc.italic = 0;
 	desc.shadow = 1;
 	desc.bufferSize = 1000000;
-	desc.charSpaceX = 0;
+	desc.charSpaceX = hasEnglishPatch * -1;
 	desc.charSpaceY = hasEnglishPatch * -2;
 	desc.offsetX = 0;
 	desc.offsetY = 0;

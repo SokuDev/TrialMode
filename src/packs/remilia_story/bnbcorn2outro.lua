@@ -3,9 +3,9 @@
 --
 
 local dialogs = {
-	"lWDYou got monkey pawed here as they say.",
-        "lHDWell, I'm not sure if vampires have anything<br>to do with monkeys however.",
-        "rHDWhy is everybody cheating here..."
+	"lWDYou got monkey pawed here, as they say.",
+	"lHDWell, I'm not sure if vampires have anything<br>to do with monkeys, though.",
+	"rHDWhy is everybody here cheating..."
 }
 
 local dialog  = StandDialog.new(dialogs)
@@ -54,6 +54,8 @@ function update()
 			battleMgr.rightCharacterManager.animationSubFrame = 0
 			battleMgr.rightCharacterManager.action = enums.actions.ACTION_KNOCKED_DOWN_STATIC
 			battleMgr.rightCharacterManager:initAnimation()
+			battleMgr.leftCharacterManager.direction = enums.directions.RIGHT
+			battleMgr.rightCharacterManager.direction = enums.directions.LEFT
 		end
 	elseif flashRect.fillColor.a ~= 0 then
 		color.a = color.a - 0x11;
