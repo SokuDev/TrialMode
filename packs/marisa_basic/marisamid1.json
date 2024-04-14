@@ -1,0 +1,57 @@
+{
+    "dummy": {
+        "character": "iku",
+        "deck": [],
+        "palette": 0,
+        "pos": {
+            "x": 600.0,
+            "y": 0.0
+        }
+    },
+    "expected": "5aaa 5b hj9 j5a j2a j5c j66:25 j2a/j6a/j6a[20]",
+    "music": "data/bgm/st21.ogg",
+    "player": {
+        "character": "marisa",
+        "deck": [],
+        "palette": 0,
+        "pos": 550.0
+    },
+    "score": [
+        {
+            "min_damage": 3160,
+            "min_hits": 13,
+            "min_limit": 100
+        },
+        {
+            "max_attempts": 15
+        },
+        {
+            "max_attempts": 10
+        },
+        {
+            "max_attempts": 5,
+            "min_damage": 3200
+        }
+    ],
+    "skills": [
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "stage": 11,
+    "type": "combo",
+    "uniform_card_cost": 1
+}

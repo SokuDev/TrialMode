@@ -1,0 +1,56 @@
+{
+    "dummy": {
+        "character": "suika",
+        "deck": [],
+        "palette": 0,
+        "pos": {
+            "x": 800.0,
+            "y": 0.0
+        }
+    },
+    "expected": "5aaaa 66a d214b",
+    "music": "data/bgm/st21.ogg",
+    "player": {
+        "character": "marisa",
+        "deck": [],
+        "palette": 0,
+        "pos": 750.0
+    },
+    "score": [
+        {
+            "min_damage": 2532,
+            "min_hits": 6,
+            "min_limit": 50
+        },
+        {
+            "max_attempts": 20
+        },
+        {
+            "max_attempts": 15
+        },
+        {
+            "max_attempts": 10
+        }
+    ],
+    "skills": [
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "stage": 11,
+    "type": "combo",
+    "uniform_card_cost": 1
+}

@@ -1,0 +1,60 @@
+{
+    "dummy": {
+        "character": "utsuho",
+        "deck": [],
+        "palette": 0,
+        "pos": {
+            "x": 1250.0,
+            "y": 0.0
+        }
+    },
+    "expected": "!9 !j5a:35 5aaa:24 5b:17 hj9:23 j5a:6 j2a:16 j2b:24 j5c:21 j66:21 j6a:8",
+    "music": "data/bgm/st21.ogg",
+    "player": {
+        "character": "marisa",
+        "deck": [],
+        "palette": 0,
+        "pos": 1175.0
+    },
+    "score": [
+        {
+            "min_damage": 3200,
+            "min_hits": 14,
+            "min_limit": 115
+        },
+        {
+            "max_attempts": 30
+        },
+        {
+            "max_attempts": 15,
+            "min_damage": 3410,
+            "min_hits": 15
+        },
+        {
+            "min_damage": 3490,
+            "min_hits": 16,
+            "min_limit": 120
+        }
+    ],
+    "skills": [
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "stage": 11,
+    "type": "combo",
+    "uniform_card_cost": 1
+}

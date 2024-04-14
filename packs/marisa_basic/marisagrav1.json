@@ -1,0 +1,86 @@
+{
+    "dummy": {
+        "character": "yuyuko",
+        "deck": [],
+        "palette": 0,
+        "pos": {
+            "x": 1240.0,
+            "y": 300.0
+        }
+    },
+    "expected": "8 j8a:16 j5c:30 j2d sc209",
+    "hand": [
+        209,
+        209,
+        209
+    ],
+    "music": "data/bgm/st21.ogg",
+    "player": {
+        "character": "marisa",
+        "deck": [
+            209,
+            209,
+            209,
+            209,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4
+        ],
+        "palette": 0,
+        "pos": 1162.0
+    },
+    "score": [
+        {
+            "min_damage": 3250,
+            "min_hits": 9,
+            "min_limit": 140
+        },
+        {
+            "max_attempts": 20
+        },
+        {
+            "max_attempts": 15,
+            "min_damage": 3400,
+            "min_hits": 11,
+            "min_limit": 150
+        },
+        {
+            "min_damage": 3600,
+            "min_hits": 13,
+            "min_limit": 160
+        }
+    ],
+    "skills": [
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "stage": 11,
+    "type": "combo"
+}

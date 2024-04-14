@@ -1,0 +1,59 @@
+{
+    "dummy": {
+        "character": "sanae",
+        "deck": [],
+        "palette": 0,
+        "pos": {
+            "x": 712.0,
+            "y": 180.0
+        }
+    },
+    "expected": "hj9/9 !j5a:10 j8a:17 j2c:17 j9d[17]:32 !j5a j8a:17 j2c:17",
+    "music": "data/bgm/op.ogg",
+    "player": {
+        "character": "tenshi",
+        "deck": [],
+        "palette": 0,
+        "pos": 558.0
+    },
+    "score": [
+        {
+            "min_damage": 1838,
+            "min_hits": 6,
+            "min_limit": 100
+        },
+        {
+            "max_attempts": 30,
+            "min_damage": 2084,
+            "min_hits": 7
+        },
+        {
+            "max_attempts": 15,
+            "min_damage": 2261,
+            "min_hits": 8
+        },
+        {
+            "max_attempts": 3
+        }
+    ],
+    "skills": [
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "stage": 14,
+    "type": "combo"
+}

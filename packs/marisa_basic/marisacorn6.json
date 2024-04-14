@@ -1,0 +1,58 @@
+{
+    "music": 21,
+    "stage": 11,
+    "player": {
+        "character": "marisa",
+        "palette": 0,
+        "deck": [],
+        "pos": 1190
+    },
+    "dummy": {
+        "character": "yuyuko",
+        "palette": 0,
+        "deck": [],
+        "pos": {
+            "x": 1250,
+            "y": 55
+        }
+    },
+    "type": "combo",
+
+    "expected": "4a 6b hj8 j5a j2b j66 j5a j6a j6c d214b:40",
+    "skills": [
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0]
+    ],
+    "weather": "clear",
+    "disable_limit": false,
+    "uniform_card_cost": 1,
+    "hand": [],
+    "play_combo_after_intro": true,
+    "score": [
+        {
+            "min_hits": 16,
+            "min_damage": 3350,
+			"min_limit": 90,
+            "max_limit": 108
+        },
+        {
+            "max_attempts": 20
+        },
+        {
+			"min_hits":17,
+			"min_damage": 3430,
+            "max_attempts": 15
+        },
+        {
+			"min_hits":18,
+			"min_damage":3470,
+			"min_limit":108,
+            "max_attempts": 10
+        }
+    ],
+    "hint": [
+
+    ]
+}

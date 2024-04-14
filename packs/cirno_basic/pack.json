@@ -1,0 +1,126 @@
+{
+    "author": "looisin, Mishandra",
+    "category": "Cirno",
+    "characters": [
+        "chirno"
+    ],
+    "description": "Cirno's combos for beginners",
+    "icon": {
+        "isPath": false,
+        "offset": {
+            "x": 3.0,
+            "y": 0.0
+        },
+        "path": "data/character/chirno/face/face000.cv2",
+        "rect": {
+            "height": 54,
+            "left": 0,
+            "top": 0,
+            "width": 133
+        },
+        "scale": 0.5100007057189941,
+        "xMirror": true,
+        "yMirror": false
+    },
+    "modes": [
+        "Combo",
+        "Story"
+    ],
+    "name": "Basic Combos",
+    "scenarios": [
+        {
+            "description": "5aaaa 5SC<br>Corner<br><br>Easy and consistent confirm from dial against<br>any character at corner. 5aaaa may be delayed<br>for more damage.",
+            "extra": false,
+            "file": "bnb1",
+            "may_be_locked": true,
+            "name": "Spell confirm corner",
+            "name_hidden_when_locked": false,
+            "preview": "bnb1.gif"
+        },
+        {
+            "description": "5aaa 5c 3SC Sword/5SC Crusher<br>Anywhere<br><br>Basic ground spell confirm, 3SC Sword needs<br>delay against some characters, but you can<br>always do it to be sure that it will link<br>against any character. 3SC Laser works too.",
+            "extra": false,
+            "file": "bnb2",
+            "may_be_locked": true,
+            "name": "Spell confirm midscreen",
+            "name_hidden_when_locked": false,
+            "preview": "bnb2.gif"
+        },
+        {
+            "description": "5aaaa d623b<br>Corner<br><br>Easy way to get limit if you don't have<br>enough spirit for more optimal combos.",
+            "extra": false,
+            "file": "bnb4",
+            "may_be_locked": true,
+            "name": "Dial A starter low spirit corner",
+            "name_hidden_when_locked": false,
+            "preview": "bnb4.gif"
+        },
+        {
+            "description": "(j5a lc) 5aaa/f5a 5c d236/a214<br>Anywhere<br><br>The most optimal is getting 5 hits with 5aaa<br>by delaying 5c, but 4 hits is more consistent.",
+            "extra": false,
+            "file": "bnb3",
+            "may_be_locked": true,
+            "name": "Dial A starter",
+            "name_hidden_when_locked": false,
+            "preview": "bnb3.gif"
+        },
+        {
+            "description": "j5a j5c j66 j5a j5c<br>Anywhere<br><br>Works against all characters but depends on<br>position.",
+            "extra": false,
+            "file": "bnb9",
+            "may_be_locked": true,
+            "name": "Air j5a starter midscreen 3",
+            "name_hidden_when_locked": false,
+            "preview": "bnb9.gif"
+        },
+        {
+            "description": "j5a j8a j5c ja214/jd236/jd623c<br>Anywhere<br><br>Prioritize using a214 ice charge, although it<br>needs to be at level 2 for air-usage, so<br>choose other routes available.",
+            "extra": false,
+            "file": "bnb5",
+            "may_be_locked": true,
+            "name": "Air j5a starter midscreen",
+            "name_hidden_when_locked": false,
+            "preview": "bnb5.gif"
+        },
+        {
+            "description": "5aaa 5b 5c d236b hj9 j2a(3)<br>Corner<br><br>Basic corner combo with j2a ender. Delay 5b<br>for maximum damage output.",
+            "extra": false,
+            "file": "bnb7",
+            "may_be_locked": true,
+            "name": "Dial A starter corner",
+            "name_hidden_when_locked": false,
+            "preview": "bnb7.gif"
+        },
+        {
+            "description": "f5a(3) 5c hj9 (j5a) j5c jd623c/ja214c<br>Anywhere<br><br>Basic AUB conversion, j5a may be omitted for<br>more consistency.",
+            "extra": false,
+            "file": "bnb6",
+            "may_be_locked": true,
+            "name": "AUB starter",
+            "name_hidden_when_locked": false,
+            "preview": "bnb6.gif"
+        },
+        {
+            "description": "j5a j6b j5c ja214c/jd623b<br>Anywhere<br><br>The most consistent roue but less rewarding.<br>Do it if you aren't in position to j8a or to<br>link other combos.",
+            "extra": false,
+            "file": "bnb8",
+            "may_be_locked": true,
+            "name": "Air j5a starter midscreen 2",
+            "name_hidden_when_locked": false,
+            "preview": "bnb8.gif"
+        },
+        {
+            "description": "j5a j5c j66 (j5a) j8a j2c/j5c<br>Corner/Near corner<br><br>Works near corner if the second j5a is a bit<br>delayed. j2c is your most optimal ender, but<br>if the opponent is too low, it will not hit,<br>needing j5c to cover that angle.",
+            "extra": false,
+            "file": "bnb10",
+            "may_be_locked": true,
+            "name": "Air j5a starter (near) corner",
+            "name_hidden_when_locked": false,
+            "preview": "bnb10.gif"
+        }
+    ],
+    "stand": {
+        "isPath": false,
+        "path": "data/stand/chirno.cv2"
+    }
+}

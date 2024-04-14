@@ -1,0 +1,87 @@
+{
+    "dummy": {
+        "character": "iku",
+        "deck": [],
+        "palette": 0,
+        "pos": {
+            "x": 820.0,
+            "y": 0.0
+        }
+    },
+    "expected": "66a sc204:19 !hj9/hj8/hjd9:90 !j6d/j66:10 j6b/j2b:15 j66:30 !j5a j8a:17",
+    "hand": [
+        204,
+        204,
+        204,
+        204,
+        204
+    ],
+    "intro": "4SCIntro.lua",
+    "music": "data/bgm/st13.ogg",
+    "player": {
+        "character": "tenshi",
+        "deck": [
+            200,
+            200,
+            201,
+            202,
+            203,
+            203,
+            203,
+            203,
+            204,
+            205,
+            205,
+            205,
+            205,
+            206,
+            206,
+            206,
+            206,
+            207,
+            208,
+            209
+        ],
+        "palette": 0,
+        "pos": 726.0
+    },
+    "score": [
+        {
+            "min_damage": 5134,
+            "min_hits": 18,
+            "min_limit": 120
+        },
+        {
+            "max_attempts": 20,
+            "min_damage": 5238,
+            "min_hits": 19
+        },
+        {
+            "max_attempts": 10
+        },
+        {
+            "max_attempts": 1
+        }
+    ],
+    "skills": [
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            1,
+            1
+        ]
+    ],
+    "stage": 13,
+    "type": "combo",
+    "weather": 9
+}

@@ -1,0 +1,66 @@
+{
+    "counter_hit": true,
+    "dummy": {
+        "character": "sanae",
+        "deck": [],
+        "palette": 0,
+        "pos": {
+            "x": 590.0,
+            "y": 210.0
+        }
+    },
+    "expected": "hj8:1 dskill1b:26 j6c:71 j44:46 j6c:7 dskill1b:51",
+    "music": "data/bgm/st21.ogg",
+    "player": {
+        "character": "marisa",
+        "deck": [],
+        "palette": 0,
+        "pos": 370.0
+    },
+    "score": [
+        {
+            "min_damage": 3600,
+            "min_hits": 16,
+            "min_limit": 75
+        },
+        {
+            "max_attempts": 30,
+            "min_damage": 3700,
+            "min_hits": 18,
+            "min_limit": 80
+        },
+        {
+            "max_attempts": 20,
+            "min_damage": 3800,
+            "min_hits": 20,
+            "min_limit": 90
+        },
+        {
+            "max_attempts": 15,
+            "min_damage": 4000,
+            "min_hits": 22,
+            "min_limit": 100
+        }
+    ],
+    "skills": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "stage": 11,
+    "type": "combo",
+    "uniform_card_cost": 1
+}

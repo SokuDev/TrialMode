@@ -1,0 +1,152 @@
+{
+    "author": "ChevreDeFeu",
+    "category": "Tenshi Hinanawi",
+    "characters": [
+        "tenshi"
+    ],
+    "description": "Basic Tenshi combos for beginners<br><br>The goal of this Trial is to make beginners<br>used to Tenshi's combo structure and the<br>mechanics of both the game and the character,<br>hence why most of these combos aren't optimal<br>Credit:<br>LunaTriv for giving his Tenshi knowledge<br>Coffeedant for playtesting it regularly since<br>the beginning and providing the image above",
+    "icon": {
+        "isPath": false,
+        "offset": {
+            "x": 9.0,
+            "y": 0.0
+        },
+        "path": "data/character/tenshi/face/face000.cv2",
+        "rect": {
+            "height": 50,
+            "left": 0,
+            "top": 0,
+            "width": 123
+        },
+        "scale": 0.5500046610832214,
+        "xMirror": true,
+        "yMirror": false
+    },
+    "min_version": "alpha 0.6.1",
+    "modes": [],
+    "name": "Basic Combos",
+    "requirement": "",
+    "scenarios": [
+        {
+            "description": "5AAA, 5A > 5AA > 5AAA or Dial A<br>Whatever you call it, it's the first step for<br>getting into any character's combo game<br><br>1525 damage<br>Doesn't give a knockdown",
+            "extra": false,
+            "file": "5AAA",
+            "may_be_locked": false,
+            "name": "5AAA",
+            "name_hidden_when_locked": false,
+            "preview": "5AAA(GIF).gif"
+        },
+        {
+            "description": "5AA > 2B > [Spell]<br>Really simple spell confirm structure, pretty<br>much every character have something similar to<br>it<br>5AA will make both reversals (3SC and 5SC)<br>whiff, go for 5A > [Spell]<br>Just know that Tenshi's meter is mostly used<br>for its utility as Tenshi's non-metered combos<br>already do great damage once they're optimised",
+            "extra": false,
+            "file": "Meter Usage",
+            "may_be_locked": true,
+            "name": "Basic Metered Combo",
+            "name_hidden_when_locked": false,
+            "preview": "5AA 2B Spell.gif"
+        },
+        {
+            "description": "5AA > 2B > 5C > d623C<br>A good combo to know for beginners until they<br>learn Tenshi's optimised combos.<br>d623C does slightly more damage than d623B<br><br>3222 damage (lvl 0 d623)<br>Small Oki Window",
+            "extra": false,
+            "file": "Easy 5A d623 Midscreen Confirm",
+            "may_be_locked": true,
+            "name": "5A d623 Confirm",
+            "name_hidden_when_locked": false,
+            "preview": "5AA 2B 5C d623C.gif"
+        },
+        {
+            "description": "5A > 3A > 2C > HJ9 > J6B > J66 > J5A > J8A<br >A combo that works everywhere and doesn't<br>depend on any skill<br>Also works with 4A, 2A or raw 3A starter<br><br>2322 damage<br>Medium Oki Window",
+            "extra": false,
+            "file": "4A 3A LunaTriV 1",
+            "may_be_locked": true,
+            "name": "Universal 5A Confirm",
+            "name_hidden_when_locked": false,
+            "preview": "4A Midscreen.gif"
+        },
+        {
+            "description": "5AAA > 4A > 2B > 2C > J5A > J8A<br>A good combo to know for beginners until they<br>learn Tenshi's optimised combos<br>Delay 4A slightly for optimal damage<br><br>2853 damage<br>Medium Oki Window",
+            "extra": false,
+            "file": "5AAA Deep Corner ",
+            "may_be_locked": true,
+            "name": "5AAA Deep Corner ",
+            "name_hidden_when_locked": false,
+            "preview": "5AAA 4A 2B 2C J5A J8A.gif"
+        },
+        {
+            "description": "66A > d623C<br>A simple combo that gives a knockdown from<br>non-metered 66A<br>C version does slightly more damage<br><br>1228 damage (lvl 0 d623)<br>Small Oki Window",
+            "extra": false,
+            "file": "66A d623 Confirm",
+            "may_be_locked": false,
+            "name": "66A d623 Confirm",
+            "name_hidden_when_locked": false,
+            "preview": "66A d623C.gif"
+        },
+        {
+            "description": "2B > HJ8 > J6B > J66 > J5A > J8A<br>A combo that starts from a Drill hitting an<br>aerial opponent<br>Works with any drills as starters, including<br>air drills<br><br>2293 damage<br>Medium Oki Window",
+            "extra": false,
+            "file": "Air Drills Loops",
+            "may_be_locked": true,
+            "name": "Anti-Air Drills Loops",
+            "name_hidden_when_locked": false,
+            "preview": "Anti-air Drill Loop.gif"
+        },
+        {
+            "description": "J5A > J8A > J2C > JD9 > J5A > J8A > J2C<br>Tenshi's most common Air / Air conversion,<br>also works with j8A starter<br><br>2267 damage<br>Medium Oki Window",
+            "extra": false,
+            "file": "Air Combo Midscreen",
+            "may_be_locked": true,
+            "name": "Standard Air / Air Conversion",
+            "name_hidden_when_locked": false,
+            "preview": "Air-Air Combo.gif"
+        },
+        {
+            "description": "66A > 4SC > HJ9 > J6B > J66 > J5A > J8A<br>An explanation of how Tenshi's 4SC works<br>followed by a combo using it<br>This combo will do less damage the closer<br>to the corner you are<br><br>5238 damage<br>Medium Oki Window",
+            "extra": false,
+            "file": "4SC Temperament Meteorical Revelation",
+            "may_be_locked": false,
+            "name": "4SC Temperament Meteorical Revelation",
+            "name_hidden_when_locked": false,
+            "preview": "4SC.gif"
+        },
+        {
+            "description": "CH d22B > d22B > 3A<br>An explanation of how the Monsoon weather<br>works followed by a combo exclusive to it<br>Unoptimal, even at lvl max<br><br>2284 damage(lvl 0 d22)<br>Big Oki Window",
+            "extra": false,
+            "file": "Monsoon",
+            "may_be_locked": false,
+            "name": "Monsoon Concept",
+            "name_hidden_when_locked": false,
+            "preview": "22B Monsoon.gif"
+        },
+        {
+            "description": "d22B > d214B > a236B \"Heaven and Earth Press\"<br>An explanation of how the Blue Sky weather<br>works followed by a combo exclusive to it<br>May have inconsistent damage due to a236's<br>multihits dropping<br><br>2010 damage (lvl 0 d22 / d214 lvl 1 a236)<br>Medium Oki Window",
+            "extra": false,
+            "file": "Blue Sky ",
+            "may_be_locked": false,
+            "name": "Blue Sky Concept",
+            "name_hidden_when_locked": false,
+            "preview": "d22 Bluesky.gif"
+        },
+        {
+            "description": "5AA > 2B > HJ8 > J2B > JD3 > J5A > 5AAA<br>A sight of what comes next!<br>Unoptimal version of Tenshi's most emblematic<br>combo structure<br>Do 2A > 3A ender instead of 5AAA if you run<br>a214 Quake<br><br>2882 damage<br>Big Oki Window",
+            "extra": true,
+            "file": "5A Deep Corner Drill Loop",
+            "may_be_locked": false,
+            "name": "Deep Corner Drill Loop",
+            "name_hidden_when_locked": false,
+            "preview": "Deep Corner Drill Loop.gif"
+        },
+        {
+            "description": "5A > 6B > HJ9 > J2B > JD3 > J5A > 5AAA<br>A sight of what comes next!<br>Unoptimal version of Tenshi's most emblematic<br>combo structure<br>Do 2A > 3A ender instead of 5AAA if you run<br>a214 Quake<br><br>2624 damage<br>Big Oki Window",
+            "extra": true,
+            "file": "5AA Midscreen Drill Loop",
+            "may_be_locked": false,
+            "name": "Midscreen Drill Loop",
+            "name_hidden_when_locked": false,
+            "preview": "Midscreen Unoptimal Drill Loop.gif"
+        }
+    ],
+    "stand": {
+        "isPath": true,
+        "path": "Basic title.png"
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "dummy": {
+        "character": "reimu",
+        "deck": [],
+        "palette": 0,
+        "pos": {
+            "x": 764.0,
+            "y": 54.0
+        }
+    },
+    "expected": "f5a 5c:44 hj9:28 j5a:8 j5c:18 jd623c/ja1214c:14",
+    "music": "data/bgm/st31.ogg",
+    "player": {
+        "character": "chirno",
+        "deck": [],
+        "palette": 0,
+        "pos": 672.0
+    },
+    "score": [
+        {
+            "min_damage": 2450,
+            "min_hits": 11,
+            "min_limit": 100
+        },
+        {
+            "max_attempts": 5
+        },
+        {
+            "max_attempts": 2
+        },
+        {
+            "max_attempts": 1,
+            "min_damage": 2665
+        }
+    ],
+    "skills": [
+        [
+            0,
+            0
+        ],
+        [
+            1,
+            2
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "stage": 30,
+    "type": "combo"
+}

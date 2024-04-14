@@ -1,0 +1,57 @@
+{
+    "dummy": {
+        "character": "iku",
+        "deck": [],
+        "palette": 0,
+        "pos": {
+            "x": 760.0,
+            "y": 984.0
+        }
+    },
+    "expected": "d22b:1 d214b:30 a1236b:22",
+    "intro": "BlueSkyIntro.lua",
+    "music": "data/bgm/st13.ogg",
+    "player": {
+        "character": "tenshi",
+        "deck": [],
+        "palette": 0,
+        "pos": 594.0
+    },
+    "score": [
+        {
+            "min_damage": 1923,
+            "min_hits": 4,
+            "min_limit": 100
+        },
+        {
+            "max_attempts": 20
+        },
+        {
+            "max_attempts": 10
+        },
+        {
+            "max_attempts": 1
+        }
+    ],
+    "skills": [
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            1,
+            1
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "stage": 13,
+    "type": "combo",
+    "weather": 3
+}

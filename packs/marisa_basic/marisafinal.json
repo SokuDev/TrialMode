@@ -1,0 +1,53 @@
+{
+    "music": 99,
+    "stage": 11,
+    "player": {
+        "character": "marisa",
+        "palette": 0,
+        "deck": [209,209,209,209,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4],
+        "pos": 700
+    },
+    "dummy": {
+        "character": "youmu",
+        "palette": 0,
+        "deck": [],
+        "pos": {
+            "x": 800,
+            "y": 0
+        }
+    },
+    "type": "combo",
+
+    "expected": "8 j2b j6d j5a:20 5aaaa 66a:50 d623c sc209",
+    "skills": [
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0]
+    ],
+    "weather": "clear",
+    "disable_limit": false,
+    "uniform_card_cost": 1,
+    "hand": [209],
+    "play_combo_after_intro": true,
+    "score": [
+        {
+            "min_hits": 18,
+            "min_damage": 3700,
+			"min_limit": 190,
+            "max_limit": 190
+        },
+        {
+            "max_attempts": 5
+        },
+        {
+            "max_attempts": 3
+        },
+        {
+            "max_attempts": 1
+        }
+    ],
+    "hint": [
+
+    ]
+}

@@ -1,0 +1,242 @@
+{
+    "author": "Thanuris",
+    "category": "Marisa Kirisame",
+    "characters": [
+        "marisa",
+        "iku",
+        "meirin",
+        "remilia",
+        "sanae",
+        "suika",
+        "utsuho",
+        "yuyuko",
+        "youmu"
+    ],
+    "description": "Basic Marisa combos focusing on the easiest<br>routes to get limit/knockdown.<br><br>Unlike other characters, Marisa only has<br>one (hard) universal ground combo so this pack<br>will show various character specific routes<br>to knockdown off dial A (5aaaa).",
+    "icon": {
+        "isPath": false,
+        "offset": {
+            "x": 1.0,
+            "y": 0.0
+        },
+        "path": "data/character/marisa/face/face000.bmp",
+        "rect": {
+            "height": 46,
+            "left": 0,
+            "top": 0,
+            "width": 113
+        },
+        "scale": 0.6000000238418579,
+        "xMirror": true,
+        "yMirror": false
+    },
+    "min_version": "alpha 0.5.15",
+    "modes": [
+        "Combo"
+    ],
+    "name": "Basic Combos",
+    "scenarios": [
+        {
+            "description": " 5aaaa Spell <br> -------<br> This will be the combo that you'll use <br> the most as Marisa since it works with most<br> of her spells.",
+            "extra": false,
+            "file": "marisaany1.json",
+            "may_be_locked": true,
+            "name": "Starting out",
+            "name_hidden_when_locked": false,
+            "preview": "combo1.gif"
+        },
+        {
+            "description": "j5a j8a(2) j6c j66 (j5a) j6a<br>Works anywhere<br>-------<br>Unlike her ground combos, Marisa's air combos<br>are very lenient and have lots of different<br>routes.J8a is the best j5a followup for<br>consistency since you can always limit off it<br>with this combo.",
+            "extra": false,
+            "file": "BnB air combo 1",
+            "may_be_locked": true,
+            "name": "BnB air combo 1",
+            "name_hidden_when_locked": true,
+            "preview": "combo4.gif"
+        },
+        {
+            "description": "(j5a) j6a j6c j66 j6a/j6[a]<br>Near corner/corner only<br>-------<br>Easy combo to do off a j6a starter, j6[a] is<br>the ideal finisher if possible for more damage.",
+            "extra": false,
+            "file": "BnB air combo 2",
+            "may_be_locked": true,
+            "name": "BnB air combo 2",
+            "name_hidden_when_locked": true,
+            "preview": "combo5.gif"
+        },
+        {
+            "description": "j2a j5c j66 j6a j6c<br>Midscreen and near corner only<br>-------<br>Consistent combo off a j2a starter, very<br>useful to limit off j44 j2a crossups and<br>midscreen hj9 j2a BE catches.",
+            "extra": false,
+            "file": "BnB air combo 3",
+            "may_be_locked": true,
+            "name": "BnB air combo 3",
+            "name_hidden_when_locked": true,
+            "preview": "combo6.gif"
+        },
+        {
+            "description": "5aaa 5b hj9 j5a j2a j5c j66 j2[a]/j6[a]<br>Anywhere but corner, MU specific<br>5aaa 5b hj9 j5a j2a j5c j66 j6a<br>Alternative version<br>-------<br>Midscreen BnB with corner carry and good<br>okizeme time.",
+            "extra": false,
+            "file": "marisamid1.json",
+            "may_be_locked": true,
+            "name": "Midscreen Tall Characters",
+            "name_hidden_when_locked": true,
+            "preview": "combo7.gif"
+        },
+        {
+            "description": "d6 5aaaa hj9 j5a j2a j5c j66 j6a<br>Anywhere but corner, MU specific<br>-------<br>Unlike most other characters, Marisa is forced<br>to use links in her BnB ground combos for some<br>MU, so you have to get used to the input<br>timing after 5aaaa.",
+            "extra": false,
+            "file": "marisamid3.json",
+            "may_be_locked": true,
+            "name": "Midscreen Short Characters",
+            "name_hidden_when_locked": true,
+            "preview": "combo8.gif"
+        },
+        {
+            "description": "(j5a) j2a j2c jd3 j6a<br>Corner only<br>-------<br>Marisa's most common border escape catch combo<br>j2b can be used instead of j214b as a finisher<br>for better okizeme.",
+            "extra": false,
+            "file": "Corner ground j2a",
+            "may_be_locked": true,
+            "name": "Corner ground j2a",
+            "name_hidden_when_locked": true,
+            "preview": "combo9.gif"
+        },
+        {
+            "description": "f5a 6b hj9 j5a j6a j6c j66 j6a <br>AUB Corner only, works versus everyone<br>-------<br>Most common AUB scenario, also works with a<br>third hit of dial A starter instead of f5a.",
+            "extra": false,
+            "file": "marisacorn4.json",
+            "may_be_locked": true,
+            "name": "Corner AUB 1",
+            "name_hidden_when_locked": true,
+            "preview": "combo10.gif"
+        },
+        {
+            "description": "4a/5a 6b hj9 j5a j2a j2c jd3 j6a <br>Corner only<br>-------<br>Second most common AUB scenario, sometimes<br>drops depending of distance because of 6b<br>bullets hitting too fast.",
+            "extra": false,
+            "file": "marisacorn5.json",
+            "may_be_locked": true,
+            "name": "Corner AUB 2",
+            "name_hidden_when_locked": true,
+            "preview": "combo11.gif"
+        },
+        {
+            "description": "CH j214b j6c j66 j6a j214b<br>Works at specific heights, needs lvl1+ j214b<br>-------<br>Marisa's default 214b, also called \"broomride\"<br>is her hardest hitting starter and scariest<br>neutral tool. It has long untech on CH<br>so j6c can be held until your opponent is at<br>the proper height to finish this combo.",
+            "extra": false,
+            "file": "Broomride 1",
+            "may_be_locked": true,
+            "name": "Broomride 1",
+            "name_hidden_when_locked": true,
+            "preview": "combo12.gif"
+        },
+        {
+            "description": "j214b Luminous Strike<br>Works anywhere<br>-------<br>Simple combo to get a knockdown and decent<br>damage off lvl0 no CH broomride.<br>Luminous Strike can be used to make broomride<br>safe on block so this combo can also be used<br>as a BE catch blockstring.",
+            "extra": false,
+            "file": "Broomride 2",
+            "may_be_locked": true,
+            "name": "Broomride 2",
+            "name_hidden_when_locked": true,
+            "preview": "combo13.gif"
+        },
+        {
+            "description": "j8a j5c j2d Gravity Beat <br>Corner and near corner only<br>-------<br>This combo is very important for players who<br>use Gravity Beat because it ignores the<br>spell cancel proration thus it does absurd<br>damage for its cost.",
+            "extra": false,
+            "file": "marisagrav1.json",
+            "may_be_locked": true,
+            "name": "Gravity Beat 1",
+            "name_hidden_when_locked": true,
+            "preview": "combo14.gif"
+        },
+        {
+            "description": "623c Gravity Beat<br>Works anywhere<br>-------<br>Another common way to combo Gravity Beat<br>but the spell needs to be used before<br>Marisa leaves the ground.",
+            "extra": false,
+            "file": "Gravity Beat 2",
+            "may_be_locked": true,
+            "name": "Gravity Beat 2",
+            "name_hidden_when_locked": true,
+            "preview": "combo15.gif"
+        },
+        {
+            "description": "5aaa 5b hj9 j5a j2a j2c j66 j2a <br>Corner only, MU specific<br>-------<br>Corner combo that leads well into airtech<br>baits after the first j2c to do air pressure<br>afterwards.",
+            "extra": false,
+            "file": "marisacorn3.json",
+            "may_be_locked": true,
+            "name": "Corner Tall Characters",
+            "name_hidden_when_locked": true,
+            "preview": "combo3.gif"
+        },
+        {
+            "description": "5aaaa 2a 3a (5b/6b) 623b | Corner only<br>Drops against Patchouli, Suika<br>              Reisen, Cirno<br>--------<br>Good combo to get consistent limit without<br>having to learn character specific routes,<br>B bullets after 3a are optional.",
+            "extra": false,
+            "file": "marisacorn2.json",
+            "may_be_locked": true,
+            "name": "Corner (almost) Universal",
+            "name_hidden_when_locked": true,
+            "preview": "combo2.gif"
+        },
+        {
+            "description": "(j5a) j8a(1) Dragon Meteor<br>Works anywhere<br>-------<br>Easiest way to confirm Dragon Meteor.<br>It can also be comboed off j2a and j6a.",
+            "extra": false,
+            "file": "Dragon Meteor",
+            "may_be_locked": true,
+            "name": "Dragon Meteor",
+            "name_hidden_when_locked": true,
+            "preview": "combo16.gif"
+        },
+        {
+            "description": "CH 623b Gravity Beat<br>Works anywhere<br>All the 623B CH combos only work in Dust Storm<br>-------<br>Another example of how to combo Gravity Beat<br>ignoring chain spell proration.",
+            "extra": false,
+            "file": "marisadust2.json",
+            "may_be_locked": true,
+            "name": "Dust Storm",
+            "name_hidden_when_locked": true,
+            "preview": "combo17.gif"
+        },
+        {
+            "description": "j214b j6c j44 j6c j214b<br>Works anywhere, height dependant<br>-------<br>CH Broomride optimal combo for maximum damage.<br>Requires a precise j44 cancel between each j6c.",
+            "extra": true,
+            "file": "marisadust1.json",
+            "may_be_locked": true,
+            "name": "Broomride Optimal",
+            "name_hidden_when_locked": true,
+            "preview": "combo18.gif"
+        },
+        {
+            "description": "5aaa 5b hj9 j5a j2a j5c j66 delay j2a j214<br>Anywhere but corner, MU specific<br>-------<br>Highest damage Marisa can get meterless in<br>midscreen.<br>Bad okizeme afterwards.",
+            "extra": true,
+            "file": "marisamid2.json",
+            "may_be_locked": true,
+            "name": "Midscreen Tall Characters Max Damage",
+            "name_hidden_when_locked": true,
+            "preview": "combo19.gif"
+        },
+        {
+            "description": "(j5a) 5aaa 5b hj9 j5a j2a j2b(2/3) jC j66 j6a<br>Corner only, Okuu only<br>-------<br>Hardest hitting Marisa's meterless ground<br>corner combo, this version only works on Okuu<br>with some variations it can work on other tall<br>characters like Iku but they are far harder<br>to do.",
+            "extra": true,
+            "file": "Corner Utsuho Optimal",
+            "may_be_locked": true,
+            "name": "Corner Okuu Only Optimal",
+            "name_hidden_when_locked": true,
+            "preview": "combo20.gif"
+        },
+        {
+            "description": "CH j8a(1) j5[C] j2d land Gravity Beat<br>Works anywhere, requires timing for max damage<br>-------<br>By far the best use of Gravity beat damagewise<br>this combo does more damage than some 5cost<br>spells of other characters.<br>To consistently get the j8a CH, you can force<br>the Dust Storm weather.",
+            "extra": true,
+            "file": "Dust Storm EX",
+            "may_be_locked": true,
+            "name": "Gravity Beat EX",
+            "name_hidden_when_locked": true,
+            "preview": "combo21.gif"
+        },
+        {
+            "description": "5aaaa delay 66a d214b<br>Works anywhere, only universal ground combo<br>-------<br>Marisa sadly has no meterless combo routes<br>against short characters in midscreen without<br>links so learning to do this combo<br>consistently is your top priority to become a<br>decent Marisa player.",
+            "extra": true,
+            "file": "Most Important Combo to Practice",
+            "may_be_locked": true,
+            "name": "Most Important Combo to Practice",
+            "name_hidden_when_locked": true,
+            "preview": "combo22.gif"
+        }
+    ],
+    "stand": {
+        "isPath": false,
+        "path": "data/stand/marisa.cv2"
+    }
+}

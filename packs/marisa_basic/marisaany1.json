@@ -1,0 +1,83 @@
+{
+    "dummy": {
+        "character": "meirin",
+        "deck": [],
+        "palette": 0,
+        "pos": {
+            "x": 800.0,
+            "y": 0.0
+        }
+    },
+    "expected": "5aaaa sc211/sc200/sc202/sc203/sc209:23",
+    "hand": [
+        211,
+        200,
+        209,
+        203,
+        202
+    ],
+    "music": "data/bgm/st21.ogg",
+    "player": {
+        "character": "marisa",
+        "deck": [
+            0,
+            0,
+            0,
+            0,
+            13,
+            13,
+            13,
+            13,
+            200,
+            200,
+            202,
+            202,
+            202,
+            202,
+            203,
+            203,
+            209,
+            209,
+            211,
+            211
+        ],
+        "palette": 0,
+        "pos": 750.0
+    },
+    "score": [
+        {
+            "min_damage": 2724,
+            "min_hits": 9,
+            "min_limit": 50
+        },
+        {
+            "max_attempts": 15
+        },
+        {
+            "max_attempts": 10
+        },
+        {
+            "max_attempts": 5
+        }
+    ],
+    "skills": [
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "stage": 11,
+    "type": "combo"
+}

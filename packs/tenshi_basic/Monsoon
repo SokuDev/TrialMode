@@ -1,0 +1,58 @@
+{
+    "counter_hit": true,
+    "dummy": {
+        "character": "iku",
+        "deck": [],
+        "palette": 0,
+        "pos": {
+            "x": 748.0,
+            "y": 0.0
+        }
+    },
+    "expected": "d22b:1 d22b:63 3a:67",
+    "intro": "MonsoonIntro.lua",
+    "music": "data/bgm/st13.ogg",
+    "player": {
+        "character": "tenshi",
+        "deck": [],
+        "palette": 0,
+        "pos": 642.0
+    },
+    "score": [
+        {
+            "min_damage": 2284,
+            "min_hits": 3,
+            "min_limit": 120
+        },
+        {
+            "max_attempts": 20
+        },
+        {
+            "max_attempts": 10
+        },
+        {
+            "max_attempts": 1
+        }
+    ],
+    "skills": [
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            0,
+            0
+        ]
+    ],
+    "stage": 13,
+    "type": "combo",
+    "weather": 18
+}

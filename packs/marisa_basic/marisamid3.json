@@ -1,0 +1,53 @@
+{
+    "music": 21,
+    "stage": 11,
+    "player": {
+        "character": "marisa",
+        "palette": 0,
+        "deck": [],
+        "pos": 550
+    },
+    "dummy": {
+        "character": "remilia",
+        "palette": 0,
+        "deck": [],
+        "pos": {
+            "x": 600,
+            "y": 0
+        }
+    },
+    "type": "combo",
+
+    "expected": "d6 5aaaa hj9 j5a j2a j5c j66 j6a:25",
+    "skills": [
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0]
+    ],
+    "weather": "clear",
+    "disable_limit": false,
+    "uniform_card_cost": 1,
+    "hand": [],
+    "play_combo_after_intro": true,
+    "score": [
+        {
+            "min_hits": 10,
+            "min_damage": 2800,
+			"min_limit": 100,
+            "max_limit": 100
+        },
+        {
+            "max_attempts": 15
+        },
+        {
+            "max_attempts": 10
+        },
+        {
+            "max_attempts": 5
+        }
+    ],
+    "hint": [
+
+    ]
+}
