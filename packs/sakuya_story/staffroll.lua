@@ -219,7 +219,7 @@ for t = #forcedOrder, 1, -1 do
 	local k = chrs.animations[i]
 	local scores = getTrialScores("Babylon's Aurora", chrs.names[i])
 
-	if #scores >= 2 and scores[#scores - 1] ~= -1 then
+	if #scores >= 2 and scores[#scores - 1] ~= -1 or t == 1 then
 		characters[#characters + 1] = {
 			animArray = loadSprites(i, k),
 			currentAnim = "walk",
